@@ -1,0 +1,87 @@
+EXERCÍCIOS PROPOSTOS
+1. Crie uma classe chamada Ingresso, que possua o nome do
+evento e o valor do ingresso. Crie o método exibirValor(),
+que apenas retorne o valor do ingresso. Crie o método __str__
+que retorne o nome do evento seguido do valor do ingresso.
+Crie um programa para testar sua classe.
+
+2. Crie uma classe chamada Retangulo, a qual possua os atribu-
+tos largura e altura, e os métodos calcularPerimetro() e
+
+calcularArea(). No código de teste, crie um objeto e calcule,
+respectivamente, o perímetro e a área desse retângulo.
+
+3. Crie uma classe Ponto, conforme a figura a seguir. O méto-
+do __str__ deve retornar os atributos do objeto no formato
+
+“nome: (x, y)”. Crie em outro arquivo os testes para a classe
+Ponto, lendo diversos pontos e criando um objeto ponto para
+cada entrada lida. Coloque cada objeto da classe Ponto em
+uma lista e, ao final, imprima cada elemento dessa lista.
+
+4. Crie uma classe Lista que receba um atributo do tipo list
+e que tenha um método o qual retorne os elementos da lista
+sem repetição. Crie o programa de teste.
+
+194
+5. Implemente uma calculadora que receba dois operadores
+utilizando os conceitos de orientação a objetos aprendidos. Os
+atributos op1 e op2 (operadores) são iniciados no construtor e os
+métodos somar(), subtrair(), multiplicar(), dividir()
+e calcularPotencia() realizam as respectivas ações nesses
+atributos. Crie o programa de teste para a classe Calculadora.
+6. Crie a classe Funcionario com os atributos nome e
+salario, recebidos pelo método construtor, e o método
+
+aumentarSalario(porcentagem) cujo parâmetro é a por-
+centagem de aumento. Implemente um programa de teste
+
+para a classe, criando dois funcionários e simulando o aumen-
+to de salário de 20% para um e 50% para o outro.
+
+7. Implemente uma classe Carro, que tenha as propriedades
+consumo e combustível refletindo o consumo do carro em
+km/l e o combustível no tanque, respectivamente. O consumo
+é atribuído no método construtor, enquanto o combustível
+inicia com 0. Crie o método andar() para simular o ato de
+dirigir o veículo por uma certa distância (isso vai reduzir a
+quantidade de combustível no tanque). Crie um método
+exibirCombustivel(), que mostrará o nível atual em
+que o carro se encontra e o método abastecer(litros)
+para aumentar o nível de combustível do carro. Agora, crie o
+programa de teste e simule o passeio de um veículo.
+8. Implemente a classe ContaInvestimento semelhante a
+
+uma classe ContaBancaria, com a diferença de que se adi-
+cione um atributo taxaJuros. Forneça um construtor que
+
+configure tanto o saldo inicial como a taxa de juros. Forneça
+
+195
+INTRODUÇÃO A PYTHON
+
+um método adicionarJuros() para adicionar juros à conta
+(definido no atributo). Escreva um programa que construa uma
+
+poupança com um saldo inicial de R$ 1.000,00 e uma taxa de ju-
+ros de 10%. Depois aplique o método adicioneJuros() cinco
+
+vezes e imprima o saldo resultante.
+9. Implemente a classe Trigonometria com o atributo angulo
+iniciado no método construtor (em graus) e o método __str__,
+para exibir o ângulo em radianos e os valores de seno, cosseno
+e tangente ao imprimir o objeto. Crie o programa de teste para
+três ângulos diferentes.
+
+10. Aproveitando a classe Ponto da questão 3, adicione o mé-
+todo calcularDistancia(), que receba um outro ponto
+
+como argumento e calcule a distância euclidiana entre eles.
+
+Considerando dois pontos (P e Q), a distância euclidiana é cal-
+culada pela fórmula:
+
+.
+
+Crie o programa de teste, crie alguns pontos e calcule a distân-
+cia entre eles.

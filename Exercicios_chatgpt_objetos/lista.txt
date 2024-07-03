@@ -1,0 +1,20 @@
+Crie uma função que receba dois números como parâmetros e retorne a soma deles.
+Crie um objeto pessoa com propriedades nome, idade e um método dizerNome que exibe o nome da pessoa.
+Crie uma função construtora Carro que receba marca, modelo e ano como parâmetros e crie um objeto com essas propriedades.
+Escreva uma função que receba um objeto como parâmetro e exiba todas as suas propriedades e valores.
+Crie um objeto círculo com propriedades raio e um método calcularArea que retorne a área do círculo.
+Escreva uma função que receba um array de números como parâmetro e retorne o maior número.
+Crie um objeto livro com propriedades título, autor e um método detalhes que exiba o título e autor do livro.
+Escreva uma função que receba um objeto data com propriedades dia, mês e ano, e retorne uma string no formato dia/mês/ano.
+Crie uma função construtora ContaBancária que receba nome do titular, saldo inicial e métodos para depositar e sacar dinheiro.
+Escreva uma função que receba um objeto como parâmetro e verifique se ele possui a propriedade email.
+Crie um objeto retângulo com propriedades largura e altura e métodos para calcular área e perímetro.
+Escreva uma função que receba um array de objetos aluno com propriedades nome e nota, e retorne a média das notas.
+Crie um objeto triângulo com propriedades base, altura e um método calcularArea que retorne a área do triângulo.
+Escreva uma função que receba dois objetos como parâmetros e retorne true se ambos tiverem as mesmas propriedades e valores, e false caso contrário.
+Crie uma função construtora Produto que receba nome, preço e estoque como parâmetros, e métodos para atualizar preço e estoque.
+Escreva uma função que receba um array de objetos produto com propriedades nome e preço, e retorne o produto mais caro.
+Crie um objeto agenda que permita adicionar contatos com propriedades nome, telefone e um método para listar todos os contatos.
+Escreva uma função que receba um objeto como parâmetro e retorne a quantidade de propriedades que ele possui.
+Crie uma função construtora Animal que receba nome e tipo como parâmetros, e um método emitirSom que exiba o som do animal.
+Escreva uma função que receba um array de objetos cliente com propriedades nome e saldo, e retorne o cliente com o maior saldo.
