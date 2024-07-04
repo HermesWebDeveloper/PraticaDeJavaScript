@@ -12,7 +12,7 @@ function ContaBancaria (titular, saldo) {
     this.titular = titular;
     this.saldo = saldo;
     this.depositar = function(valor) {
-        this.saldo = this.saldo + valor;
+        this.saldo += valor;
     }
     this.sacar = function(valor) {
         if (valor <= this.saldo) {
@@ -34,13 +34,13 @@ function atualizarTitular() {
 }
 
 function atualizarSaldo(){
-    outValorSaldo.textContent = conta1.saldo.toFixed(2);
+    outValorSaldo.textContent = (conta1.saldo).toFixed(2);
 }
 
 function sacar() {
-    let valor = inputValorOperacao.value;
+    let valor = Number(inputValorOperacao.value);
     if(conta1.sacar(valor)) {
-        alert("Saque ocorrido com sucesso!");
+        // alert("Saque ocorrido com sucesso!");
         atualizarSaldo();
     } else {
         alert("Saque impossível!");
@@ -48,8 +48,7 @@ function sacar() {
 }
 
 function depositar() {
-    let valor = inputValorOperacao.value;
-    console.log(valor)
+    let valor = Number(inputValorOperacao.value);
     conta1.depositar(valor);
     atualizarSaldo();
 }
