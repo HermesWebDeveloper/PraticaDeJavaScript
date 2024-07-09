@@ -1,0 +1,150 @@
+- Matrizes
+- Métodos: at(), join(), pop(), push(), shift(), unshift(), delet(), concat(), splice(), toSpliced(), slice()
+
+1 - Crie uma lista de compras contendo os itens "maçã", "banana", "laranja" e "uva". Adicione "melancia" no final da lista. Em seguida, remova o primeiro item e adicione "morango" no início da lista.
+
+2 - Dada uma lista de tarefas ["lavar a louça", "varrer a casa", "passar roupa"], remova a última tarefa, adicione "fazer compras" no final da lista e concatene esta lista com ["ir ao banco", "pagar contas"].
+
+3 - Crie uma matriz de notas de alunos [7.5, 8.0, 9.2, 6.5, 5.8]. Remova a primeira nota, adicione a nota 7.0 no início da lista, e crie uma nova matriz contendo apenas as notas entre a segunda e a quarta posição da matriz original.
+
+4 - Dada uma matriz de preços de produtos [15.99, 29.99, 10.50, 23.75], adicione o preço 19.99 no final da matriz e remova o segundo preço. Em seguida, crie uma nova matriz combinando a matriz resultante com [9.99, 12.49].
+
+5 - Crie uma lista de nomes de colegas de trabalho ["Ana", "Bruno", "Carlos", "Diana"]. Adicione "Eduardo" no início e no final da lista. Em seguida, remova o terceiro nome e crie uma nova matriz contendo todos os nomes, exceto o primeiro e o último.
+
+Dada uma matriz de números [3, 7, 2, 9, 4], encontre e imprima o terceiro elemento da matriz. Em seguida, remova o último elemento e adicione os números 6 e 8 no final da matriz.
+
+Crie uma lista de filmes favoritos ["Inception", "Matrix", "Interstellar", "Avatar"]. Concatene esta lista com ["Titanic", "O Senhor dos Anéis"], remova o segundo filme e crie uma nova matriz contendo apenas os três primeiros filmes da lista resultante.
+
+Dada uma matriz de palavras ["sol", "lua", "estrela", "cometa"], remova a primeira palavra, adicione "galáxia" no início da matriz e crie uma nova matriz resultante da união desta com ["planeta", "meteoro"].
+
+Crie uma lista de cidades que você deseja visitar ["Paris", "Nova York", "Tóquio", "Sidney"]. Remova a última cidade, adicione "Londres" e "Berlim" no final da lista e crie uma nova matriz contendo apenas as duas últimas cidades.
+
+Dada uma matriz de cores ["vermelho", "azul", "verde", "amarelo"], remova a cor "verde", adicione "roxo" no final da lista e crie uma nova matriz contendo apenas as cores "azul" e "roxo".
+
+Crie uma lista de livros que você já leu ["1984", "Dom Casmurro", "O Pequeno Príncipe", "Harry Potter"]. Remova o segundo livro, adicione "Senhor dos Anéis" no início da lista e crie uma nova matriz contendo todos os livros, exceto o primeiro.
+
+Dada uma matriz de temperaturas semanais [20, 22, 19, 23, 21, 20, 18], remova a primeira temperatura, adicione 24 no final da lista e crie uma nova matriz contendo apenas as temperaturas da segunda à quinta posição.
+
+Crie uma lista de jogos que você gosta ["FIFA", "Call of Duty", "Minecraft", "Fortnite"]. Adicione "Among Us" no início e no final da lista, remova o terceiro jogo e crie uma nova matriz contendo apenas os jogos entre a segunda e a quarta posição da lista resultante.
+
+Dada uma matriz de nomes ["João", "Maria", "José", "Ana"], remova o primeiro e o último nome, adicione "Paulo" no início e "Carla" no final da matriz, e crie uma nova matriz contendo apenas os nomes "Maria" e "Paulo".
+
+Crie uma lista de séries de TV que você está assistindo ["Breaking Bad", "Game of Thrones", "Stranger Things", "The Crown"]. Remova a segunda série, adicione "Dark" no final da lista e crie uma nova matriz contendo apenas as três primeiras séries da lista resultante.
+
+Dada uma matriz de frutas ["morango", "banana", "abacaxi", "maçã"], remova a fruta "banana", adicione "laranja" no final da lista e crie uma nova matriz contendo apenas as frutas "abacaxi" e "maçã".
+
+Crie uma lista de destinos de férias ["Praia", "Montanha", "Cidade", "Campo"]. Adicione "Deserto" no início e no final da lista, remova o terceiro destino e crie uma nova matriz contendo apenas os destinos entre a segunda e a quarta posição da lista resultante.
+
+Dada uma matriz de números [1, 2, 3, 4, 5, 6], remova o segundo e o quarto número, adicione os números 7 e 8 no final da matriz, e crie uma nova matriz contendo apenas os números entre a primeira e a terceira posição da matriz resultante.
+
+Crie uma lista de hobbies ["ler", "escrever", "desenhar", "correr"]. Adicione "cantar" no início e no final da lista, remova o segundo hobby e crie uma nova matriz contendo apenas os hobbies entre a terceira e a quinta posição da lista resultante.
+
+Dada uma matriz de números [12, 25, 37, 44, 59], remova o primeiro número, adicione os números 10 e 20 no início da matriz, e crie uma nova matriz contendo apenas os números entre a terceira e a quinta posição da matriz resultante.
+
+- Métodos: indexOf(), lastIndexOf(), includes(), find(), findIndex(), findLastIndex()
+
+Dada uma lista de ingredientes ["farinha", "açúcar", "manteiga", "ovos", "leite"], encontre a posição do ingrediente "manteiga". Verifique se "fermento" está presente na lista e, em caso negativo, adicione-o ao final da lista.
+
+Crie uma matriz de preços de produtos [10.99, 20.49, 5.99, 12.75, 20.49]. Encontre a última ocorrência do preço 20.49 e remova todos os elementos antes dele.
+
+Dada uma lista de notas de alunos [8, 9, 7, 6, 5, 7, 10], verifique se a nota 7 está presente na lista. Se estiver, adicione uma nota 8 no final da lista. Encontre a posição da última ocorrência da nota 7 e remova a nota na posição anterior a ela.
+
+Crie uma matriz de tarefas ["estudar", "trabalhar", "exercitar", "descansar", "viajar"]. Verifique se a tarefa "exercitar" está presente e, se estiver, encontre a posição da primeira ocorrência. Adicione "caminhar" antes dessa posição.
+
+Dada uma lista de temperaturas diárias [30, 32, 31, 29, 28, 32, 35], encontre a última ocorrência da temperatura 32. Verifique se a temperatura 27 está presente na lista e, em caso negativo, adicione-a ao final da lista.
+
+Crie uma lista de filmes assistidos ["Avatar", "Vingadores", "Matrix", "Inception", "Avatar"]. Encontre a posição da última ocorrência do filme "Avatar" e remova-o. Verifique se "Titanic" está presente na lista e adicione ao início da lista se não estiver.
+
+Dada uma matriz de números [5, 8, 10, 5, 15, 8], verifique se o número 8 está presente na lista. Encontre a posição da primeira ocorrência do número 5 e remova o número na posição seguinte a essa.
+
+Crie uma lista de palavras ["amor", "paz", "alegria", "paz", "amizade"]. Verifique se a palavra "paz" está presente e encontre a posição da última ocorrência. Adicione a palavra "harmonia" no final da lista se "paz" estiver presente.
+
+Dada uma matriz de valores [100, 200, 150, 200, 250], encontre a posição da primeira ocorrência do valor 200. Verifique se o valor 300 está presente na lista e adicione-o no início se não estiver.
+
+Crie uma lista de cores ["vermelho", "azul", "verde", "amarelo", "azul"]. Verifique se a cor "azul" está presente e encontre a posição da última ocorrência. Adicione "roxo" antes dessa posição.
+
+Dada uma lista de números [3, 6, 9, 12, 15, 18], verifique se o número 12 está presente e encontre a posição da primeira ocorrência. Remova todos os elementos após essa posição.
+
+Crie uma matriz de nomes ["Carlos", "Ana", "Pedro", "Ana", "João"]. Encontre a última ocorrência do nome "Ana" e remova-o. Verifique se "Maria" está presente e adicione ao final da lista se não estiver.
+
+Dada uma lista de frutas ["banana", "maçã", "laranja", "banana", "uva"], encontre a posição da primeira ocorrência de "banana". Verifique se "morango" está presente e, se não estiver, adicione-o ao final da lista.
+
+Crie uma lista de meses ["janeiro", "fevereiro", "março", "abril", "maio", "março"]. Verifique se "março" está presente e encontre a posição da última ocorrência. Remova todos os elementos antes dessa posição.
+
+Dada uma matriz de palavras ["casa", "carro", "bicicleta", "moto", "carro"], verifique se "carro" está presente e encontre a posição da primeira ocorrência. Adicione "avião" na posição imediatamente anterior a "carro".
+
+Crie uma lista de números [2, 4, 6, 8, 10, 12, 4]. Verifique se o número 4 está presente e encontre a posição da última ocorrência. Remova todos os elementos após essa posição.
+
+Dada uma lista de atividades ["trabalhar", "estudar", "descansar", "viajar", "estudar"], encontre a posição da primeira ocorrência de "estudar" e remova-a. Verifique se "passear" está presente e adicione ao início da lista se não estiver.
+
+Crie uma matriz de temperaturas [22, 25, 28, 22, 30, 28], verifique se a temperatura 28 está presente e encontre a posição da última ocorrência. Adicione a temperatura 26 após essa posição.
+
+Dada uma lista de hobbies ["ler", "escrever", "desenhar", "correr", "escrever"], encontre a posição da primeira ocorrência de "escrever". Verifique se "pintar" está presente e, se não estiver, adicione ao final da lista.
+
+Crie uma lista de comidas ["pizza", "hambúrguer", "sushi", "lasanha", "hambúrguer"]. Verifique se "hambúrguer" está presente e encontre a posição da última ocorrência. Remova todos os elementos antes dessa posição.
+
+- sort(), reverse(), toSorted(), toReversed()
+
+
+Dada uma lista de nomes ["Lucas", "Ana", "Bruno", "Pedro"], organize a lista em ordem alfabética crescente. Em seguida, inverta a ordem da lista.
+
+Crie uma matriz de números [15, 8, 22, 1, 30], organize os números em ordem crescente e crie uma nova matriz com a ordem inversa da lista original.
+
+Dada uma lista de cidades ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba"], organize as cidades em ordem alfabética e depois inverta a ordem da lista.
+
+Crie uma matriz de preços [19.99, 5.49, 25.75, 12.30, 7.99], organize os preços em ordem crescente e depois crie uma nova matriz com a ordem inversa dos preços.
+
+Dada uma lista de idades [34, 21, 45, 30, 18], organize as idades em ordem crescente e crie uma nova matriz com a ordem inversa da lista original.
+
+Crie uma lista de filmes ["Matrix", "Inception", "Avatar", "Titanic"], organize os filmes em ordem alfabética e depois inverta a ordem da lista.
+
+Dada uma lista de temperaturas [25, 32, 18, 28, 30], organize as temperaturas em ordem crescente e crie uma nova matriz com a ordem inversa da lista original.
+
+Crie uma matriz de palavras ["abacaxi", "banana", "laranja", "maçã"], organize as palavras em ordem alfabética e depois crie uma nova matriz com a ordem inversa das palavras.
+
+Dada uma lista de valores [105, 32, 87, 45, 29], organize os valores em ordem crescente e depois crie uma nova matriz com a ordem inversa da lista original.
+
+Crie uma lista de cores ["vermelho", "azul", "verde", "amarelo"], organize as cores em ordem alfabética e inverta a ordem da lista.
+
+- Classificação numérica de matrizes, classificação aleatória
+- Métodos: forEach(), map(), flatMap().
+
+Dada uma lista de números [10, 5, 8, 3, 12], classifique os números em ordem crescente utilizando o método apropriado. Em seguida, crie uma nova matriz aplicando um cálculo simples a cada elemento utilizando map().
+
+Crie uma matriz de palavras ["banana", "abacaxi", "maçã", "laranja"], classifique as palavras em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada palavra seja repetida duas vezes utilizando flatMap().
+
+Dada uma lista de temperaturas [25, 30, 22, 28], classifique as temperaturas em ordem crescente utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada temperatura seja convertida para Celsius utilizando map().
+
+Crie uma matriz de objetos contendo informações sobre livros (por exemplo, {titulo: "Dom Casmurro", autor: "Machado de Assis"}). Classifique os livros pelo título em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada objeto de livro seja transformado em uma string formatada utilizando map().
+
+Dada uma lista de arrays [[1, 2], [3, 4], [5, 6]], aplique flatMap() para obter uma única matriz plana. Em seguida, crie uma nova matriz onde cada número seja multiplicado por 2 utilizando map().
+
+Crie uma matriz de strings ["hello", "world", "this", "is", "a", "test"]. Classifique as strings em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada string seja convertida para maiúsculas utilizando map().
+
+Dada uma lista de números [1, 2, 3, 4, 5], classifique os números em ordem crescente utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada número seja elevado ao quadrado utilizando map().
+
+Crie uma matriz de objetos representando pessoas (por exemplo, {nome: "João", idade: 30}). Classifique as pessoas por idade utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada pessoa seja representada por seu nome em letras maiúsculas utilizando map().
+
+Dada uma lista de matrizes [[1, 2], [3, 4, 5], [6], [7, 8, 9]], aplique flatMap() para obter uma única matriz plana. Em seguida, crie uma nova matriz onde cada número seja convertido para uma string utilizando map().
+
+Crie uma matriz de strings ["apple", "banana", "orange", "grape"]. Classifique as strings em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada string seja repetida três vezes utilizando flatMap().
+
+Dada uma lista de números [10, 5, 8, 3, 12], classifique os números em ordem crescente utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada número seja multiplicado por 2 utilizando forEach().
+
+Crie uma matriz de palavras ["banana", "abacaxi", "maçã", "laranja"]. Classifique as palavras em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada palavra seja repetida duas vezes utilizando forEach().
+
+Dada uma lista de temperaturas [25, 30, 22, 28], classifique as temperaturas em ordem crescente utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada temperatura seja convertida para Celsius utilizando map() e forEach().
+
+Crie uma matriz de objetos contendo informações sobre livros (por exemplo, {titulo: "Dom Casmurro", autor: "Machado de Assis"}). Classifique os livros pelo título em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada objeto de livro seja transformado em uma string formatada utilizando map() e forEach().
+
+Dada uma lista de arrays [[1, 2], [3, 4], [5, 6]], aplique flatMap() para obter uma única matriz plana. Em seguida, crie uma nova matriz onde cada número seja multiplicado por 2 utilizando map() e forEach().
+
+Crie uma matriz de strings ["hello", "world", "this", "is", "a", "test"]. Classifique as strings em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada string seja convertida para maiúsculas utilizando map() e forEach().
+
+Dada uma lista de números [1, 2, 3, 4, 5], classifique os números em ordem crescente utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada número seja elevado ao quadrado utilizando map() e forEach().
+
+Crie uma matriz de objetos representando pessoas (por exemplo, {nome: "João", idade: 30}). Classifique as pessoas por idade utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada pessoa seja representada por seu nome em letras maiúsculas utilizando map() e forEach().
+
+Dada uma lista de matrizes [[1, 2], [3, 4, 5], [6], [7, 8, 9]], aplique flatMap() para obter uma única matriz plana. Em seguida, crie uma nova matriz onde cada número seja convertido para uma string utilizando map() e forEach().
+
+Crie uma matriz de strings ["apple", "banana", "orange", "grape"]. Classifique as strings em ordem alfabética utilizando o método apropriado. Em seguida, crie uma nova matriz onde cada string seja repetida três vezes utilizando flatMap() e forEach().
