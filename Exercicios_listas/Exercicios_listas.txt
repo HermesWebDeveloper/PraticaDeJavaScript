@@ -11,15 +11,15 @@
 
 5 - Crie uma lista de nomes de colegas de trabalho ["Ana", "Bruno", "Carlos", "Diana"]. Adicione "Eduardo" no início e no final da lista. Em seguida, remova o terceiro nome e crie uma nova matriz contendo todos os nomes, exceto o primeiro e o último.
 
-Dada uma matriz de números [3, 7, 2, 9, 4], encontre e imprima o terceiro elemento da matriz. Em seguida, remova o último elemento e adicione os números 6 e 8 no final da matriz.
+6 - Dada uma matriz de números [3, 7, 2, 9, 4], encontre e imprima o terceiro elemento da matriz. Em seguida, remova o último elemento e adicione os números 6 e 8 no final da matriz.
 
-Crie uma lista de filmes favoritos ["Inception", "Matrix", "Interstellar", "Avatar"]. Concatene esta lista com ["Titanic", "O Senhor dos Anéis"], remova o segundo filme e crie uma nova matriz contendo apenas os três primeiros filmes da lista resultante.
+7 - Crie uma lista de filmes favoritos ["Inception", "Matrix", "Interstellar", "Avatar"]. Concatene esta lista com ["Titanic", "O Senhor dos Anéis"], remova o segundo filme e crie uma nova matriz contendo apenas os três primeiros filmes da lista resultante.
 
-Dada uma matriz de palavras ["sol", "lua", "estrela", "cometa"], remova a primeira palavra, adicione "galáxia" no início da matriz e crie uma nova matriz resultante da união desta com ["planeta", "meteoro"].
+8 - Dada uma matriz de palavras ["sol", "lua", "estrela", "cometa"], remova a primeira palavra, adicione "galáxia" no início da matriz e crie uma nova matriz resultante da união desta com ["planeta", "meteoro"].
 
-Crie uma lista de cidades que você deseja visitar ["Paris", "Nova York", "Tóquio", "Sidney"]. Remova a última cidade, adicione "Londres" e "Berlim" no final da lista e crie uma nova matriz contendo apenas as duas últimas cidades.
+9 - Crie uma lista de cidades que você deseja visitar ["Paris", "Nova York", "Tóquio", "Sidney"]. Remova a última cidade, adicione "Londres" e "Berlim" no final da lista e crie uma nova matriz contendo apenas as duas últimas cidades.
 
-Dada uma matriz de cores ["vermelho", "azul", "verde", "amarelo"], remova a cor "verde", adicione "roxo" no final da lista e crie uma nova matriz contendo apenas as cores "azul" e "roxo".
+10 - Dada uma matriz de cores ["vermelho", "azul", "verde", "amarelo"], remova a cor "verde", adicione "roxo" no final da lista e crie uma nova matriz contendo apenas as cores "azul" e "roxo".
 
 Crie uma lista de livros que você já leu ["1984", "Dom Casmurro", "O Pequeno Príncipe", "Harry Potter"]. Remova o segundo livro, adicione "Senhor dos Anéis" no início da lista e crie uma nova matriz contendo todos os livros, exceto o primeiro.
 
