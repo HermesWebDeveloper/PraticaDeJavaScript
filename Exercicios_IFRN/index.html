@@ -3,34 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercitando JS</title>
+    <link rel="stylesheet" href="static/index.css" type="text/css">
 </head>
 <body>
-    <h1>Meus Exercícios em JavaScript (Objetos)</h1>
-    <hr>
-    <h2>Exercício 1:</h2>
-    <p>1. Crie um objeto chamada Ingresso, que possua o nome do evento e o valor do ingresso. Crie o método exibirValor(), que apenas retorne o valor do ingresso. Crie o método __str__ que retorne o nome do evento seguido do valor do ingresso. Crie um programa para testar sua classe.</p>
-    <h3>Entrada:</h3>
-    <form>
-        <label for="inputNomeEvento">Digite o nome do evento: </label>
-        <input type="text" id="inputNomeEvento" placeholder="Jogo de Futebol">
-        <label for="inputValorIngresso">Digite o valor do ingresso: </label>
-        <input type="text" id="inputValorIngresso">
-        <button type="button" id="btnEnviarEx01">Enviar</button>
-    </form>
-    <div>
-        <h3>Saída:</h3>
-        <ul>
-            <li>
-                <p>Evento: <span id="outNomeEvento">[NOME DO EVENTO]</span>.</p>
-            </li>
-            <li>
-                <p>Ingresso R$ <span id="outValorIngresso">[VALOR DO INGRESSO]</span>.</p>
-            </li>
-            <li>
-                <p id="outEventoIngresso__str__">[__str__]</p>
-            </li>
-        </ul>
+    <div class="lista-exercicios-container">
+        <h1>Meus Exercícios em JavaScript (Funções Construtoras e Objetos)</h1>
+        <hr>
+        <div id="div-ex01">
+            <h2>Exercício 1:</h2>
+            <p>1. Crie um objeto chamada Ingresso, que possua o nome do evento e o valor do ingresso. Crie o método exibirValor(), que apenas retorne o valor do ingresso. Crie o método __str__ que retorne o nome do evento seguido do valor do ingresso. Crie um programa para testar sua classe.</p>
+            <h3>Entrada:</h3>
+            <form class="flex-column">
+                <label for="inputNomeEvento">Digite o nome do evento: </label>
+                <input type="text" id="inputNomeEvento" placeholder="Jogo de Futebol">
+                <label for="inputValorIngresso">Digite o valor do ingresso: </label>
+                <input type="text" id="inputValorIngresso">
+                <button type="button" id="btnEnviarEx01">Enviar</button>
+            </form>
+            <div>
+                <h3>Saída:</h3>
+                <ul>
+                    <li>
+                        <p>Evento: <span id="outNomeEvento">[NOME DO EVENTO]</span>.</p>
+                    </li>
+                    <li>
+                        <p>Ingresso: R$ <span id="outValorIngresso">[VALOR DO INGRESSO]</span>.</p>
+                    </li>
+                    <li>
+                        <p id="outEventoIngresso__str__">[__str__]</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="div-ex2">
+            <h2>Exercício 2:</h2>
+            <p>2. Crie um objeto chamado Retangulo, a qual possua os atributos largura e altura, e os métodos calcularPerimetro() e calcularArea(). No código de teste, crie um objeto e calcule, respectivamente, o perímetro e a área desse retângulo.</p>
+            <h3>Entrada:</h3>
+            <form>
+                <label for="inputLarguraRetangulo">Largura: </label>
+                <input type="number" id="inputLarguraRetangulo">
+                <label for="inputAlturaRetangulo">Altura: </label>
+                <input type="number" id="inputAlturaRetangulo">
+                <button type="button" id="btnEnviarEx02">Enviar</button>
+            </form>
+            <h3>Saída:</h3>
+            <div>
+                <ul>
+                    <li>
+                        <p>Perímetro do Retângulo: <span id="outPerimetroRetangulo">[PERIMETRO]</span></p>
+                    </li>
+                    <li>
+                        <p>Área do Retângulo: <span id="outAreaRetangulo">[AREA]</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div id="div-ex03">
+            <h2>Exerício 3:</h2>
+            <p>3. Crie uma função construtora Ponto, conforme a figura a seguir. O método __str__ deve retornar os atributos do objeto no formato “nome: (x, y)”. Crie em outro arquivo os testes para a função construtra Ponto, lendo diversos pontos e criando um objeto ponto para cada entrada lida. Coloque cada objeto da classe Ponto em uma lista e, ao final, imprima cada elemento dessa lista.</p>
+            <img src="images/ponto-ex03.png" style="width: 30%;">
+
+            <h3>Entrada:</h3>
+            <form>
+                <label for="inputPontoX">X: </label>
+                <input type="number" id="inputPontoX">
+                <label for="inputPontoY">Y: </label>
+                <input type="number" id="inputPontoY">
+                <button type="button" id="btnEnviarEx03">Adicionar Ponto</button>
+                <button type="button" id="btnZerarLista">Zerar Lista</button>
+            </form>
+            <h3>Saída:</h3>
+            <ul>
+                <span id="outListaPontos"></span>
+            </ul>
+        </div>
+        <hr>
+        <div id="div-ex04">
+            <h2>Exercício 4:</h2>
+            <p>4. Crie uma função construtora Lista que receba um atributo do tipo array e que tenha um método o qual retorne os elementos da array sem repetição. Crie o programa de teste.</p>
+            
+            <h3>Entrada:</h3>
+            <form>
+                <label for="inputElementoLista">Elemento: </label>
+                <input type="text" id="inputElementoLista">
+                <button type="button" id="btnAdicionarElemeto">Adicionar na Lista</button>
+            </form>
+
+            <h3>Saída:</h3>
+            <div>
+                <ul>
+                    <li>
+                        Lista: <span id="outLista"></span>
+                    </li>
+                    <li>
+                        Lista sem repetir: <span id="outListaSemRepetir"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <script src="./static/funcoes.js"></script>

@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lista-exercicios-container {
+    width: 850px;
+    margin: auto;
+}
+
+/* .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
